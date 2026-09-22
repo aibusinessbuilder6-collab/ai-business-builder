@@ -1,0 +1,1 @@
+export default async req=>{if(req.method!=="POST")return new Response("Method not allowed",{status:405});return Response.json({name:"Meu Negócio",headline:"Seu negócio criado com IA",description:"A função está pronta. Configure OPENAI_API_KEY no Netlify para ativar a geração real.",cta:"Começar agora"})};

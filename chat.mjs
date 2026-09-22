@@ -1,0 +1,1 @@
+export default async req=>{if(req.method!=="POST")return new Response("Method not allowed",{status:405});return Response.json({reply:"Chatbot pronto para receber a integração de IA."})};
